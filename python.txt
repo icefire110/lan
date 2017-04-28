@@ -33,3 +33,5 @@
 
 	git add -u   // 添加修改和删除，但是不包括新建文件
 	git help log/add/commit等等，都能查到相关命令的帮助
+	git diff    #是工作区(work dict)和暂存区(stage)的比较
+	git diff --cached    #是暂存区(stage)和分支(master)的比较
