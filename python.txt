@@ -1,0 +1,35 @@
+1,最难理解的就是generator和函数的执行流程不一样。函数是顺序执行，遇到return语句或者最后一行函数语句就返回。而变成generator的函数，在每次调用next()的时候执行，遇到yield语句返回，再次执行时从上次返回的yield语句处继续执行
+2,函数本身也可以赋值给变量，即：变量可以指向函数
+3,既然变量可以指向函数，函数的参数能接收变量，那么一个函数就可以接收另一个函数作为参数，这种函数就称之为高阶函数,编写高阶函数，就是让函数的参数能够接收别的函数
+4,map,reduce,filter,sorted:排序
+5，静态语言函数签名相同要求每个位置的参数类型必须一致，返回值类型必须一致
+	动态语言函数参数和返回值没有类型信息，签名相同是参数个数相同
+	https://segmentfault.com/a/1190000000749061 super理解
+	
+6,　默认是贪婪模式；在量词后面直接加上一个问号？就是非贪婪模式。
+
+　　量词：{m,n}：m到n个
+
+　　　　　*：任意多个
+
+　　　　　+：一个到多个
+
+　　　　　？：0或一个
+7,base64编解码原理
+	http://blog.csdn.net/fengsh998/article/details/8663042
+	
+8，yield解释
+	http://blog.csdn.net/haskei/article/details/54908853
+	
+9,unix及git的diff格式详解
+	http://www.ruanyifeng.com/blog/2012/08/how_to_read_diff.html
+	http://blog.chinaunix.net/uid-8052635-id-4426699.html
+	
+	git add -A   // 添加所有改动
+
+	git add *     // 添加新建文件和修改，但是不包括删除
+
+	git add .    // 添加新建文件和修改，但是不包括删除
+
+	git add -u   // 添加修改和删除，但是不包括新建文件
+	git help log/add/commit等等，都能查到相关命令的帮助
