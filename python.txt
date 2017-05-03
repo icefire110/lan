@@ -51,3 +51,6 @@
 	unix命令都是如此，一个横线开头的接参数的缩写，两个横线开头的接参数的全称git -h
 	
 	输入命令：$ ssh -T git@git.oschina.net  测试公钥是否设置成功
+	
+	git push origin master对origin和master的解释：http://www.cnblogs.com/mashiqi/p/6002671.html
+	查看本地货远程分支：http://www.cnblogs.com/kaituorensheng/p/5721629.html
